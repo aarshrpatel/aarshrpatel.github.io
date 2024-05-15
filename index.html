@@ -1,94 +1,104 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="/styles/styles.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-         <title>CSCE 190: Aarsh Patel</title>
-    </head>
-    <body>
-        <h1 class="name">Aarsh Patel</h1>
-        <h3 class="subheading">Student @ The University of South Carolina</h3>
-        <h3 class="subheading">Bachelor's of Science in Computer Science & Minor in Business Administration</h3>
-        <section class = "assign">
-            <img src="images/problem-statement.jpg" alt="Problem Statement Image">
-            <section class = "assign-det">
-                <h2>Problem Statement:</h2>
-                <p>
-                    Students and young adults have a hard time 
-                    finding mentors and getting advice from people 
-                    in the industry they want to go in. Getting connections 
-                    and networking is hard for many students. Which makes it
-                     hard for them to find internships and research opportunities.
-                </p>
-            </section>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarsh Patel's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .section {
+            background: #fff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #eee;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 4px;
+        }
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aarsh Patel</h1>
+        <p>Computer Science Student at the University of South Carolina</p>
+    </header>
+
+    <div class="container">
+        <section class="section" id="about">
+            <h2>About Me</h2>
+            <p>I am a computer science student at the University of South Carolina, minoring in Business Administration. Passionate about software engineering, I am currently seeking internships in the field. As a vegetarian who also eats eggs, I am committed to a healthy lifestyle and fitness goals, aiming to lose weight without losing muscle mass. Additionally, I am working on improving my skin health due to acne scarring.</p>
         </section>
-        <!-- Affinity diagram assignment -->
-        <section class = "assign">
-            <img src="images/Affinity-Diagram.png" alt="Affinity Diagram">
-            <section class = "assign-det">
-                <a href="files/Affinity Diagram.pdf"><h2>Affinity diagram: MentorHub</h2></a>
-                <p>
-                    Our group worked together to search for ideas and solutions that would be related to our mentoring app and group these ideas.
-                </p>
-            </section>
+
+        <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>University of South Carolina</strong> - Bachelor of Science in Computer Science, Minor in Business Administration</li>
+            </ul>
         </section>
-        <!--Personas assignment-->
-        <section class="assign">
-            <img src="images/my-persona.jpg"/>
-            <section class="assign-det">
-                <a href="files/all-personas.pdf"><h2>Team Personas: MentorHub</h2></a>
-                <p>
-                    My Persona was a recent graduat with a degree in Business 
-                    Administration that is 22 years old. She is trying to get her 
-                    first job and needs a way to connect with people that can help her.
-                </p>
-            </section>
+
+        <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, C++</li>
+                <li>Web Development: HTML, CSS, JavaScript</li>
+                <li>Tools: Git, Visual Studio Code</li>
+                <li>Database Management: SQL, MySQL</li>
+                <li>Business Administration Principles</li>
+            </ul>
         </section>
-        <!--Storyboard assignment-->
-        <section class="assign">
-            <img src="/images/storyboard.jpg"/>
-            <section class="assign-det">
-                <a href="/files/storyboards.pdf"><h2>Team Storyboards: MentorHub</h2></a>
-                <p>My storyboard is on a recently graduated women who goes by the 
-                    name Emily Parker. She is currently looking for a job and 
-                    needs a mentor to guide her through the process.</p>
-            </section>
+
+        <section class="section" id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project 1</strong> - Description of Project 1.</li>
+                <li><strong>Project 2</strong> - Description of Project 2.</li>
+                <li><strong>Project 3</strong> - Description of Project 3.</li>
+            </ul>
         </section>
-        <!-- Sketching assignment -->
-        <section class="assign">
-            <img src="images/my-sketch.jpg" />
-            <section class="assign-det">
-                <a href="files/all-sketches.pdf"><h2>Team Sketches: MentorHub</h2></a>
-                <p>
-                    We each individually had different ideas for the app in some way 
-                    from who the person using the app was and what features to include.
-                </p>
-            </section>
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:aarshpatel2004@gmail.com">aarshpatel2004@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/aarsh-r-patel" target="_blank">linkedin.com/in/aarsh-r-patel</a></p>
+            <p>GitHub: <a href="https://github.com/aarshrpatel" target="_blank">github.com/aarshrpatel</a></p>
         </section>
-        <!-- Paper Prototype -->
-        <section class="assign">
-            <img src="/images/paper-prototype.jpg"/>
-            <section class="assign-det">
-                <a href="https://youtu.be/Nsg-ntRXsFw"><h2>Paper Prototype: MentorHub</h2></a>
-                <p>
-                    My team members and I created a paper prototype planning 
-                    out how the different screen would interact with one another 
-                    for our app, now called "Mentor Hub".
-                </p>
-            </section>
-        </section>
-        <!-- Hi-Fi prototype assignment-->
-        <section class="assign">
-            <img src="/images/hi-fi-prototype.jpeg"/>
-            <section class="assign-det">
-                <a href="https://youtu.be/-IB9vy0SrNE?si=HhU00UNo5lF39idx"><h2>Team Hi-Fi Prototype: MentorHub</h2></a>
-                <p>
-                    This is a Hi-Fi prototype of our application for MentorHub that has all the main pages and design for our vision for the app. 
-                    It allows for a walkthrough of the entire app with functional buttons to move between pages. We built the design with the user experience in mind.
-                </p>
-            </section>
-        </section>
-    </body>
- </html>
+    </div>
+</body>
+</html>
