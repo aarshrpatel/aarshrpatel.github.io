@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.App {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+header {
+  background: #002147;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 0;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem 0;
+}
+
+section {
+  background: #fff;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#landing {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #002147;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #eee;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+a {
+  color: #002147;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.squares {
+  display: flex;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.square.filled {
+  background: #002147;
+}
