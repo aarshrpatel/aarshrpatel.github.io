@@ -114,7 +114,7 @@ textarea {
 
 .heading-sec__main--lt::after {
     content: '';
-    background: #7843E9 !important
+    background: #04d1d1 !important
 }
 
 .heading-sec__main::after {
@@ -123,7 +123,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #7843E9;
+    background: #04d1d1;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px
@@ -169,7 +169,7 @@ textarea {
 }
 
 .btn {
-    background: #7843E9;
+    background: #04d1d1;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -195,14 +195,14 @@ textarea {
 }
 
 .btn--theme {
-    background: #7843E9;
+    background: #04d1d1;
     color: #fff
 }
 
 .btn--theme-inv {
     color: #111;
     background: #fff;
-    border: 2px solid #7843E9;
+    border: 2px solid #04d1d1;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px)
 }
@@ -381,7 +381,7 @@ textarea {
 .about__content-details-para a {
     text-decoration: underline;
     font-weight: 700;
-    color: #7843E9;
+    color: #04d1d1;
     margin: 0 3px
 }
 
@@ -742,7 +742,7 @@ textarea {
 }
 
 .header__logo-container:hover {
-    color: #7843E9
+    color: #04d1d1
 }
 
 .header__logo-img-cont {
@@ -751,7 +751,7 @@ textarea {
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #7843E9
+    background: #04d1d1
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -801,7 +801,7 @@ textarea {
 }
 
 .header__link:hover {
-    color: #7843E9
+    color: #04d1d1
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -871,7 +871,7 @@ textarea {
 }
 
 .header__sm-menu-link a:hover {
-    color: #7843E9
+    color: #04d1d1
 }
 
 .header__sm-menu-link:first-child a {
